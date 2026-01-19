@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Trouver un trajet - Riot Games</title>
+    <link rel="stylesheet" href="css/acceuil.css">
+    <link rel="stylesheet" href="css/trouver_trajet.css">
+</head>
+<body>
+
+    <header>
+        <a href="https://www.riotgames.com/fr"> 
+            <img id="logo" src="img/pngegg.png" alt="Logo Riot Games">
+        </a>
+        
+        <nav>
+            <a href="page_acceuil.html">Accueil</a>
+            <a href="AccueilCovoiturage.html" class="souligne-rouge" style="color: #d13639;">Covoiturage</a>
+            <a href="AccueilLocation.html">Location</a>
+            <a href="SeConnecter.html" class="bouton-rouge">Connexion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-title">
+            <h2>Trouver un trajet</h2>
+        </section>
+
+        <section class="search-container">
+            <form class="search-form" action="#" method="GET">
+                <label for="ville-depart">Entrez votre ville de départ :</label>
+                <input type="text" id="ville-depart" name="ville" placeholder="....................">
+                <button type="submit" class="bouton-rouge">Trouver un trajet</button>
+            </form>
+        </section>
+
+        <section class="results-container">
+            
+            <article class="trajet-card">
+                <div class="card-image">
+                    <span>Image</span>
+                </div>
+                <div class="card-details">
+                    <div class="detail-row">
+                        <span class="label">Nombre de place disponible :</span>
+                        <span class="value">3</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Mail du covoitureur :</span>
+                        <span class="value">exemple@riotgames.com</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Téléphone du covoitureur :</span>
+                        <span class="value">06 12 34 56 78</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="trajet-card">
+                <div class="card-image">
+                    <span>Image</span>
+                </div>
+                <div class="card-details">
+                    <div class="detail-row">
+                        <span class="label">Nombre de place disponible :</span>
+                        <span class="value">1</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Mail du covoitureur :</span>
+                        <span class="value">contact@riotgames.com</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Téléphone du covoitureur :</span>
+                        <span class="value">07 98 76 54 32</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="trajet-card">
+                <div class="card-image">
+                    <span>Image</span>
+                </div>
+                <div class="card-details">
+                    <div class="detail-row">
+                        <span class="label">Nombre de place disponible :</span>
+                        <span class="value">4</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Mail du covoitureur :</span>
+                        <span class="value">test@riotgames.com</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="label">Téléphone du covoitureur :</span>
+                        <span class="value">01 23 45 67 89</span>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Support</a>
+        <a href="#">Conditions d'utilisation</a>
+    </footer>
+
+</body>
+</html>
